@@ -74,7 +74,7 @@ Whether you're fixing bugs, improving UI, or adding new games, we’d love your 
 
 | 👩‍🚀 Team Members | GitHub |
 |------------------|--------|
-| Ruchika Kengal   | [Lets Connect!](https://github.com/rutikakengal) |
+| Rutika Kengal    | [Lets Connect!](https://github.com/rutikakengal) |
 | Ruchika Kengal   | [Lets Connect!](https://github.com/ruchikakengal) |
 
 ---
