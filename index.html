@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="/images/updatedfevicon.png" type="image/x-icon">
+    <title>Spacify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Honk&family=Micro+5&family=Silkscreen:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/website/styles/style.css">
+</head>
+
+<body>
+    <div class="loading">
+        <img src="/images/r.svg" class="small_rocket">
+        <div class="circle"></div>
+    </div>
+    <div class="globe"></div>
+    <img src="/images/rocket.svg" class="rocket">
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div class="stars"></div>
+    <p class="heading">SPACIFY</p>
+
+    <div class="sun" id="#home">
+        <div class="navbar">
+            <p class="title">SPACIFY</p>
+            <div class="hamburger">
+                <div class="line" id="l1"></div>
+                <div class="line" id="l2"></div>
+                <div class="line" id="l3"></div>
+            </div>
+            <button class="show" onclick="show()" id="show"></button>
+            <button class="hide" onclick="hide()" id="hide"></button>
+            <div class="blur" id="blur"></div>
+            <ul id="navbar_list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/website/pages/tictactoe.html">Tic Tac Toe</a></li>
+                <li><a href="/website/pages/flappyBird.html">Flappy Space Ship</a></li>
+                <li><a href="/index.html">Planet Dodge</a></li>
+                <!-- <li><a href="stone-paper-scissor.html">Stone Paper Scissor</a></li>
+                <li><a href="alien-catcher.html">Alien Catcher Game</a></li>
+                <li><a href="/website/pages/break.html">Break Out Game</a>
+                <li><a href="Snake.html">Snake Sphere</a></li></li>
+                <li><a href="memory.html">Memory Matching Game</a></li></li> -->
+                <li><a href="/website/pages/countributor.html">Meet The Team</a></li>
+            </ul>
+
+            <p class="credits" id="credits">Designed & Developed by<br><a href="https://github.com/rutikakengal"
+                    class="developer">Rutika↗</a> & <a href="https://github.com/ruchikakengal"
+                    class="developer">Ruchika↗</a></p>
+        </div>
+
+        <!--=================================================Home - Sun===============================-->
+
+        <div alt="" class="big_sun"></div>
+        <div class="planets">
+            <div class="planet" id="sun"></div>
+            <div class="planet" id="mercury"></div>
+            <div class="planet" id="venus"></div>
+            <div class="planet" id="earth"></div>
+            <div class="planet" id="mars"></div>
+            <div class="planet" id="jupiter"></div>
+            <div class="planet" id="saturn">
+                <div id="ring"></div>
+            </div>
+            <div class="planet" id="uranus"></div>
+            <div class="planet" id="neptune"></div>
+            <img src="/images/rocket.png" alt="" class="mini_rocket">
+        </div>
+        <div class="glass">
+            <p class="text">Welcome to SPACIFY, a fun and interactive website featuring a variety of mini-games set
+                against the backdrop of outer space! From timeless classics like Tic-Tac-Toe to exciting challenges like
+                Flappy Space Shuttle, SPACIFY is your ultimate space-themed entertainment hub. </p>
+        </div>
+        <div id="home_button">
+            <a href="/website/pages/games.html" id="play"><img src="/images/st.svg" alt="" height="150px"></a>
+        </div>
+
+    </div>
+
+    </div>
+    <script src="/website/scripts/script.js"></script>
+</body>
+
+</html>

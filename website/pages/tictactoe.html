@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/ttt_favicon.ico">
+    <link rel="stylesheet" href="../styles/tic_tac_toe_style.css">
+</head>
+
+<body>
+    <img src='https://static-00.iconduck.com/assets.00/flying-saucer-emoji-2048x1845-4gyquu9x.png' id="player1" class="player">
+    <img src='https://cdn-icons-png.flaticon.com/512/4825/4825026.png' id="player2" class="player">
+
+    <div class="container">
+        <div id="scoreBoard">
+            <div id="ufoScore" class="scores">0</div>
+            <div id="spaceShuttleScore" class="scores">0</div>
+            <h3>Tic Tac Toe</h3>
+        </div>
+
+        <!-- Mode Selection -->
+        <div id="modeSelection" class="mode-selection">
+            <h2>Select Mode:</h2>
+            <button id="playWithComputer" class="mode-button">Play with Computer</button>
+            <button id="playWithPlayer" class="mode-button">Play with Player</button>
+        </div>
+
+        <div id="gameBoard" class="game-board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div id="roundInfo">Round: 1</div>
+        <button id="restartButton">Restart Game</button>
+        <div id="winningMessage" class="winning-message">
+            <span data-winning-message-text></span>
+            <button id="winningMessageButton">Play Again</button>
+        </div>
+
+        <!-- Overall Winner Message -->
+        <div id="overall-winner" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.8); color: white; padding: 20px; border-radius: 10px; text-align: center; z-index: 100;">
+            <h2>🏆 Overall Winner!</h2>
+            <p>Winner: <span id="winner-name">Player 1</span></p>
+            <p>Final Score: <span id="winner-score">0</span></p>
+            <button onclick="window.location.href='../pages/tictactoe.html';" style="background: cyan; padding: 10px 20px; border: none; cursor: pointer; color: black;">Play Again!</button>
+        </div>
+
+    </div>
+    <a href="../pages/games.html" id="goback"><button>Go Back</button></a>
+    <script src="../scripts/tic_tac_toe_script.js"></script>
+</body>
+
+</html>

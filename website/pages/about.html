@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Space Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(180deg, #000000, #0d0d2b, #1a1a3d);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: url('/Spacify/images/6.png') repeat;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 100px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      border: 2px solid #00ffff;
+      border-radius: 20px;
+      box-shadow: 0 0 30px #00ffff;
+      backdrop-filter: blur(5px);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      text-align: center;
+      color: #00ffff;
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 15px #00ffff;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #e0f7fa;
+    }
+
+    .thank-you {
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 40px;
+      color: #39ff14;
+      text-shadow: 0 0 15px #39ff14;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        margin: 60px 20px;
+      }
+
+      h1 {
+        font-size: 2.2em;
+      }
+
+      .thank-you {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="stars"></div>
+
+  <div class="container">
+    <h1>🚀Welcome to SPACIFY🌌</h1>
+
+    <p>
+      Step into the galaxy of fun and thrill! Our platform is a space-themed arcade filled with cool, interactive, and fully 3D games designed to transport you into a cosmic adventure. 🌠
+    </p>
+
+    <p>
+      From high-speed space races to asteroid dodging and alien blasters — each game is crafted with immersive graphics, smooth controls, and a true outer-space vibe. Whether you're exploring distant planets, piloting interstellar ships, or engaging in galactic battles, we’ve got it all. 🌍🛸🪐
+    </p>
+
+    <p>
+      Our mission? To make you feel like you're playing right from the cockpit of a spaceship — with every click, jump, and blast igniting your inner space explorer. 🌌✨
+    </p>
+
+    <p>
+      Dive into our gameverse and get ready for a journey beyond stars — because here, fun is universal! 🌠🚀🎮
+    </p>
+
+    <div class="thank-you">
+      🌟 Thank You for Playing Space Games! 🌟<br>
+      Stay stellar and keep exploring the unknown. 💫
+    </div>
+  </div>
+
+</body>
+</html>

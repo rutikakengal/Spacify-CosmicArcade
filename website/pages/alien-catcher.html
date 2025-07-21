@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/alien_catcher_favicon.ico">
+    <link rel="shortcut icon" href="/fav.png" type="image/x-icon">
+    <title>Alien Catcher Game</title>
+
+  
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="../styles/alien-catcher.css" />
+  </head>
+  <body>
+    <div class="scores-container">
+      <div class="total-score">
+        <h2>Your Score:</h2>
+        <h2 id="score">0</h2>
+      </div>
+
+      <div class="time">
+        <h2>Time left:</h2>
+        <h2 id="time-left">60</h2>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+        <div class="square" id="10"></div>
+      </div>
+    </div>
+
+    <!-- Game Over Message -->
+<div id="game-over" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+background: rgba(0, 0, 0, 0.8); color: white; padding: 20px; border-radius: 10px; text-align: center; z-index: 100;">
+<h2>Game Over!👽👽👽</h2>
+<p>Your Score: <span id="final-score">0</span></p>
+<button onclick="restartGame()" style="background: rgb(32, 150, 18); padding: 10px 20px; border: none; cursor: pointer; color: black;">Restart</button>
+</div>
+
+    <script src="../scripts/alien-catcher.js"></script>
+  </body>
+</html>
